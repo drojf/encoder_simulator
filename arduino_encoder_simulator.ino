@@ -11,6 +11,8 @@ void setup() {
   Serial.begin(115200);
   // initialize the ledPin as an output:
   pinMode(ledPin, OUTPUT);
+  pinMode(channel_a, OUTPUT);
+  pinMode(channel_b, OUTPUT);
   Serial.setTimeout(300);
 }
 
